@@ -9,13 +9,14 @@ public class Strings {
 //        System.out.println("Nome do cliente : "+ nome);
 //        System.out.println("Nome completo do cliente : "+nomeCompleto);
 
-        String string = "Minha string";
+        String string = " Minha string ";
 //        System.out.println(string);
 
         System.out.println("Char na posição :" + string.charAt(7));
         System.out.println("Quantidade :" + string.length());
-        System.out.println("Sem trim :" + string);
-        System.out.println("Com trim :"+ string.trim());
+        System.out.println("Sem trim : [  369369" +
+                "" + string + " ]");
+        System.out.println("Com trim : [ "+ string.trim() +" ]");
         System.out.println("Lower :" + string.toLowerCase());
         System.out.println("Upper :" + string.toUpperCase());
         System.out.println("Contém M :" + string.contains("M"));
